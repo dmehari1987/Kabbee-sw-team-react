@@ -1,4 +1,6 @@
 import React from 'react';
+
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 import Navbar from './components/navbar';
 import Jumbotron from './components/jumbotron';
 import Welcome from './components/welcome';

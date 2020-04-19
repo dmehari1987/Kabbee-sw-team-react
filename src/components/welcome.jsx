@@ -4,8 +4,8 @@ class Welcome extends Component {
     state = {  }
     render() { 
         return ( 
-            <div className= "container-fluid padding">
-                <div className="row welcome text-center">
+            <div className= "container-fluid welcome padding">
+                <div className="row text-center">
                     <div className="col-12">
                         <h1 className= "display-4" >Automate Your Job With US!</h1>
                     </div>

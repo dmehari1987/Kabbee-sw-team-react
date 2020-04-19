@@ -8,15 +8,15 @@ class carouselSlide extends Component {
     render() { 
         return ( 
             <div id="slides" className="carousel slide" data-ride="carousel" >
-                <ol className="carousel-indicators">
+                <ul className="carousel-indicators">
                     <li data-target="#slides" data-slide-to="0" className="active" ></li>
                     <li data-target="#slides" data-slide-to="1"></li>
                     <li data-target="#slides" data-slide-to="2"></li>
-                </ol>
+                </ul>
                 <div className="carousel-inner" >
                     <div className="carousel-item active" >
-                        <img className= "d-block w-100" src= {bg11} alt=""/>
-                        <div className="carousel-caption d-none d-md-block">
+                        <img className= "" src= {bg11} alt=""/>
+                        <div className="carousel-caption">
                             <h1 className="display-2" >KABBEE</h1>
                             <h3>Software Dev Team</h3>
                             <button className="btn btn-outline-light btn-lg" type="button">Clients</button>
@@ -24,11 +24,11 @@ class carouselSlide extends Component {
                         </div>
                     </div>
                     <div className="carousel-item " >
-                        <img className= "d-block w-100" src= {bg22} alt=""/>
+                        <img className= "" src= {bg22} alt=""/>
                     </div>
                     <div className="carousel-item " >
-                        <img className= "d-block w-100" src= {bg33} alt=""/>
-                    </div>>
+                        <img className= "" src= {bg33} alt=""/>
+                    </div>
                 </div>
             </div>
          );
