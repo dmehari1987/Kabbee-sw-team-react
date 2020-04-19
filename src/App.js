@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navbar from './components/navbar';
+import Jumbotron from './components/jumbotron';
+import Welcome from './components/welcome';
+import ProgrammingLang from './components/programmingLang';
+import AboutUs from './components/aboutUs';
+import FixedImageBG from './components/fixedImageBG';
+import CoureselSlide from './components/carouselSlide';
+import MeetTheTeam from './components/meetTheTeam';
+import Cards from './components/cards';
+import ConnectWithUs from './components/connectWithUs';
+import Footer from './components/footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <CoureselSlide />
+      <Jumbotron />
+      <Welcome />
+      <ProgrammingLang />
+      <AboutUs />
+      <FixedImageBG />
+      <MeetTheTeam />
+      <Cards />
+      <ConnectWithUs />
+      <Footer />
     </div>
   );
 }
